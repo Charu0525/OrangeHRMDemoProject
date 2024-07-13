@@ -6,7 +6,8 @@
       <class name="Login.OrangeHRMDemo">
         <methods>
           <include name="verifyPasswordRequiredorNot"/>
-          <include name="verifyUserNameRequiredorNot"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- Login.OrangeHRMDemo -->
     </classes>

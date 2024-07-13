@@ -22,7 +22,7 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.interactions.Actions;
 
 public class MyKeywords {
-	RemoteWebDriver driver;
+	RemoteWebDriver driver;    
 	
 	
 	//this class is for log4j. Also for  import org.apache.log4j.Logger; this only
@@ -51,10 +51,10 @@ public class MyKeywords {
 	
 	
 
-	public void getTitle() {
+	public String getTitle(String URL) {
 		String title = driver.getTitle();
 
-		LOG.info(title);
+		return title;
 	}
 
 	public void launchURL(String URL) {
